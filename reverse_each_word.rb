@@ -4,5 +4,5 @@ def reverse_each_word(string)
   nowArray.each do |words|
     newStatement << words.reverse
   end
-  newStatement
+  newStatement.join
 end
